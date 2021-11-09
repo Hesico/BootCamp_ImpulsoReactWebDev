@@ -1,0 +1,64 @@
+.photo{
+    border-radius: 50px;
+}
+
+body{
+    background: blueviolet;
+    font-family: verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title, .subtitle, .posttitle{
+    color: blue;
+}
+
+#title{
+font-size: 40px;
+text-transform: uppercase;
+
+}
+
+a{
+    text-decoration: line-through;
+
+}
+.posttitle{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post{
+    background: burlywood;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_imagem{
+    margin-bottom: 15px;
+    width: 100%;
+    
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.list li{
+    color: yellowgreen;
+}
